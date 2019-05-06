@@ -1,0 +1,7 @@
+# list of tools
+tools:
+  porcupine:
+    file:
+      - GIRAFFE/keras.pork
+    nodes:
+      - GIRAFFE/keras_nodes.json

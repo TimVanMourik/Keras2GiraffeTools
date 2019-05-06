@@ -1,1 +1,621 @@
-{}
+{
+  "links": [],
+  "nodes": [
+    {
+      "name": "AveragePooling1D",
+      "class": "AveragePooling1D",
+      "category": [
+        "pooling"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "c9fb4796-a43a-41ec-9fc1-bf829c643a3d",
+          "input": true,
+          "inputPort": "44a91583-0f8c-4e1c-b9df-10891b04aa34",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "7d42d7bb-00cd-4963-b05a-712c3521e046",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "max_pooling1d_7",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "a4210abe-0c6c-42d3-86ee-ffadce50cbe0",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "strides",
+          "editable": true,
+          "id": "51946b38-01dc-4813-b6b4-959eb2120dcb",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "pool_size",
+          "editable": true,
+          "id": "20cda99d-c2e9-48a0-bf3b-33a4f6010210",
+          "input": false,
+          "inputPort": false,
+          "name": "pool_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "padding",
+          "editable": true,
+          "id": "2f0c4d79-900b-43ec-9b28-af35f10a158a",
+          "input": false,
+          "inputPort": false,
+          "name": "padding",
+          "output": false,
+          "outputPort": false,
+          "value": "valid",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "1dd701f0-9534-4d74-ab3d-461fdff9c0f7",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "c91b7543-8034-47c7-a379-552d2c5a043e",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "2d12b13c-eeed-493e-b4bd-2f96bab22855",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        539.8064376611774,
+        298.6787292570212
+      ],
+      "code": [],
+      "web_url": "https://keras.io/layers/pooling/AveragePooling1D"
+    },
+    {
+      "name": "GlobalAvgPool1D",
+      "class": "GlobalAvgPool1D",
+      "category": [
+        "pooling"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "1a3e31c0-f7eb-4295-89a2-3cef5db27206",
+          "input": true,
+          "inputPort": "0620da0b-29df-4c8b-b41d-9e5346812b1d",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "97ed4800-58f3-4e97-bc45-e15ce57a0e7a",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "max_pooling1d_51",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "ab636ec9-b849-402a-9993-bca04911a42b",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "strides",
+          "editable": true,
+          "id": "5da6a26f-793a-4811-a5e6-30dedd7e4d19",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "pool_size",
+          "editable": true,
+          "id": "005b9836-f67f-49e5-8998-75bec9d120c3",
+          "input": false,
+          "inputPort": false,
+          "name": "pool_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "padding",
+          "editable": true,
+          "id": "7b4e4203-62e8-4a8a-83cc-24579523e69f",
+          "input": false,
+          "inputPort": false,
+          "name": "padding",
+          "output": false,
+          "outputPort": false,
+          "value": "valid",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "65f31603-5d91-4fdc-8a2d-c659485c9a44",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "cf23ec66-faaa-441b-bb49-507f29fedbe1",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "f8b85f8a-8334-4ebb-96d6-57a1cd7701e5",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        811.4182245019689,
+        518.0574508787149
+      ],
+      "code": [],
+      "web_url": "https://keras.io/layers/pooling/GlobalAvgPool1D"
+    },
+    {
+      "name": "Add",
+      "class": "Add",
+      "category": [
+        "merge"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "86e2e0fe-15e7-41da-b54c-c28d7c8a9d25",
+          "input": true,
+          "inputPort": "7bd10631-48a2-4e29-aa19-3f324bd77bd7",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "fff63dc0-4b91-4ce2-b5f1-697b3beb6a91",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "max_pooling1d_4",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "79bb384b-28f6-4f06-83a9-90346c9a7c28",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "strides",
+          "editable": true,
+          "id": "d7b84436-c27a-4490-91e8-2399b59e3b0f",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "pool_size",
+          "editable": true,
+          "id": "131d35cc-4354-4c0f-92c8-c4835aeb1920",
+          "input": false,
+          "inputPort": false,
+          "name": "pool_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "padding",
+          "editable": true,
+          "id": "3ef139fe-8de6-4948-b828-9720d14e1b56",
+          "input": false,
+          "inputPort": false,
+          "name": "padding",
+          "output": false,
+          "outputPort": false,
+          "value": "valid",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "65df2552-1a68-4230-8fac-2e8c742c08d0",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "766ce801-6095-4f02-b1a9-f7bb75be3f7f",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "c1bbdea7-abf1-4a44-b485-23ff4fdfa3a9",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        298.3737716737422,
+        466.98515654502546
+      ],
+      "code": [],
+      "web_url": "https://keras.io/layers/merge/Add"
+    },
+    {
+      "name": "Dense",
+      "class": "Dense",
+      "category": [
+        "core"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "ee36fe79-cd09-49ca-b6b7-6d93ad77ab51",
+          "input": true,
+          "inputPort": "112ad304-c01a-47ed-9b28-7b4d9c54185f",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "2e298184-fd14-4b2e-be3b-f5a78e938312",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "max_pooling1d_37",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "07245bdb-d48d-4a91-8db9-55e8103e325c",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "strides",
+          "editable": true,
+          "id": "b208792a-5f92-4e04-86ad-2b536609cf40",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "pool_size",
+          "editable": true,
+          "id": "32c3ff31-1559-40e6-a3a6-ce238cfc0b41",
+          "input": false,
+          "inputPort": false,
+          "name": "pool_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "padding",
+          "editable": true,
+          "id": "37c5e595-fbef-4adf-a496-e18b55b16a4e",
+          "input": false,
+          "inputPort": false,
+          "name": "padding",
+          "output": false,
+          "outputPort": false,
+          "value": "valid",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "e7aab170-7b8f-4c51-ab83-07f0f182f884",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "dc86e0e6-bc1b-4b27-8261-a28023e45def",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "559d5989-0134-4f51-ab83-1ea2e80289af",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1232.7647039458477,
+        270.1137923743112
+      ],
+      "code": [],
+      "web_url": "https://keras.io/layers/core/Dense"
+    },
+    {
+      "name": "Lambda",
+      "class": "Lambda",
+      "category": [
+        "core"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "cefd6a26-0fd6-476d-abe3-a63d8cab5516",
+          "input": true,
+          "inputPort": "6972c430-cc72-49d7-b78d-9b91ddd520ca",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "8a4013ec-3b88-448a-a340-8e3941fabcc5",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "max_pooling1d_62",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "f1b10c9e-b0ec-40a9-9f15-63acd839d84d",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "strides",
+          "editable": true,
+          "id": "b75ef4e1-9eef-4eab-b2ff-ef8a5eeb520b",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "pool_size",
+          "editable": true,
+          "id": "68d0582d-7e6b-4621-94d5-87a6a39d12ab",
+          "input": false,
+          "inputPort": false,
+          "name": "pool_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "padding",
+          "editable": true,
+          "id": "ae4e9313-a8d5-4534-9977-2c966b7ff8c1",
+          "input": false,
+          "inputPort": false,
+          "name": "padding",
+          "output": false,
+          "outputPort": false,
+          "value": "valid",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "b6305b3c-e3c6-4163-b632-a72025a3ad6f",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "4bb23721-ec0f-4f34-91a2-ba4dd323a4cd",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "a1727e00-a113-4179-bc02-0ff40fba379c",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        350.6067768581707,
+        116.89691394452456
+      ],
+      "code": [],
+      "web_url": "https://keras.io/layers/core/Lambda"
+    }
+  ],
+  "version": "v1"
+}

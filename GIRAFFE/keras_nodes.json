@@ -14,8 +14,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Add",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Add"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Add",
@@ -64,8 +66,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Average",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Average"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Average",
@@ -114,8 +118,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Concatenate",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Concatenate"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Concatenate",
@@ -173,8 +179,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Layer",
@@ -223,8 +231,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Maximum",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Maximum"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Maximum",
@@ -273,8 +283,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Minimum",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Minimum"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Minimum",
@@ -323,8 +335,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Multiply",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Multiply"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Multiply",
@@ -373,8 +387,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Subtract",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Subtract"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/merge/Subtract",
@@ -428,8 +444,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.ActivityRegularization",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.ActivityRegularization"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/core/ActivityRegularization",
@@ -496,8 +514,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Flatten",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Flatten"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/core/Flatten",
@@ -555,8 +575,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/core/Layer",
@@ -605,8 +627,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Masking",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Masking"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/core/Masking",
@@ -669,8 +693,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/AveragePooling1D",
@@ -759,8 +785,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/AveragePooling2D",
@@ -851,8 +879,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/AveragePooling3D",
@@ -945,8 +975,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Cropping1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Cropping1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/Cropping1D",
@@ -1007,8 +1039,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Cropping2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Cropping2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/Cropping2D",
@@ -1084,8 +1118,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Cropping3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Cropping3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/Cropping3D",
@@ -1165,8 +1201,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/Layer",
@@ -1215,8 +1253,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/MaxPooling1D",
@@ -1305,8 +1345,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/MaxPooling2D",
@@ -1397,8 +1439,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/MaxPooling3D",
@@ -1491,8 +1535,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.UpSampling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.UpSampling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/UpSampling1D",
@@ -1550,8 +1596,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.UpSampling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.UpSampling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/UpSampling2D",
@@ -1630,8 +1678,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.UpSampling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.UpSampling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/UpSampling3D",
@@ -1702,8 +1752,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.ZeroPadding1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.ZeroPadding1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/ZeroPadding1D",
@@ -1764,8 +1816,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.ZeroPadding2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.ZeroPadding2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/ZeroPadding2D",
@@ -1841,8 +1895,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.ZeroPadding3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.ZeroPadding3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/convolutional/ZeroPadding3D",
@@ -1927,8 +1983,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling1D",
@@ -2017,8 +2075,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling2D",
@@ -2109,8 +2169,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling3D",
@@ -2203,8 +2265,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling1D",
@@ -2293,8 +2357,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling2D",
@@ -2385,8 +2451,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.AveragePooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.AveragePooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/AveragePooling3D",
@@ -2479,8 +2547,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling1D",
@@ -2538,8 +2608,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling2D",
@@ -2597,8 +2669,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling3D",
@@ -2656,8 +2730,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling1D",
@@ -2715,8 +2791,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling2D",
@@ -2774,8 +2852,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalAveragePooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalAveragePooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling3D",
@@ -2833,8 +2913,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling1D",
@@ -2892,8 +2974,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling2D",
@@ -2951,8 +3035,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling3D",
@@ -3010,8 +3096,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling1D",
@@ -3069,8 +3157,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling2D",
@@ -3128,8 +3218,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.GlobalMaxPooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.GlobalMaxPooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling3D",
@@ -3187,8 +3279,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/Layer",
@@ -3237,8 +3331,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling1D",
@@ -3327,8 +3423,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling2D",
@@ -3419,8 +3517,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling3D",
@@ -3513,8 +3613,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling1D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling1D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling1D",
@@ -3603,8 +3705,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling2D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling2D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling2D",
@@ -3695,8 +3799,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.MaxPooling3D",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.MaxPooling3D"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/pooling/MaxPooling3D",
@@ -3794,8 +3900,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/local/Layer",
@@ -3849,8 +3957,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/recurrent/Layer",
@@ -3899,8 +4009,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Recurrent",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Recurrent"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/recurrent/Recurrent",
@@ -4008,8 +4120,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.BatchNormalization",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.BatchNormalization"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/normalization/BatchNormalization",
@@ -4187,8 +4301,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/normalization/Layer",
@@ -4242,8 +4358,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/embeddings/Layer",
@@ -4297,8 +4415,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/noise/Layer",
@@ -4352,8 +4472,10 @@
               "toolbox": "Keras",
               "code": [
                 {
-                  "import": "import keras.layers.Layer",
-                  "language": "Keras"
+                  "language": "Keras",
+                  "argument": {
+                    "import": "import keras.layers.Layer"
+                  }
                 }
               ],
               "web_url": "https://keras.io/layers/wrappers/Layer",

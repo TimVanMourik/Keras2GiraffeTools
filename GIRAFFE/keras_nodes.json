@@ -37,7 +37,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "add_4",
+                  "default": "add_14",
                   "code": []
                 },
                 {
@@ -90,7 +90,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_6",
+                  "default": "average_23",
                   "code": []
                 },
                 {
@@ -143,7 +143,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "concatenate_4",
+                  "default": "concatenate_19",
                   "code": []
                 },
                 {
@@ -162,6 +162,77 @@
                   "visible": true,
                   "editable": true,
                   "default": -1,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Dot",
+              "category": [
+                "merge"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Dot",
+                    "import": "from keras.layers import Dot"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/merge/Dot",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "dot_14",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "axes",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "normalize",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
                   "code": []
                 },
                 {
@@ -205,7 +276,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_31",
+                  "default": "layer_133",
                   "code": []
                 },
                 {
@@ -258,7 +329,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "maximum_4",
+                  "default": "maximum_14",
                   "code": []
                 },
                 {
@@ -311,7 +382,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "minimum_4",
+                  "default": "minimum_14",
                   "code": []
                 },
                 {
@@ -364,7 +435,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "multiply_4",
+                  "default": "multiply_14",
                   "code": []
                 },
                 {
@@ -417,7 +488,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "subtract_4",
+                  "default": "subtract_14",
                   "code": []
                 },
                 {
@@ -475,7 +546,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "activity_regularization_4",
+                  "default": "activity_regularization_30",
                   "code": []
                 },
                 {
@@ -503,6 +574,240 @@
                   "visible": true,
                   "editable": true,
                   "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Dense",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Dense",
+                    "import": "from keras.layers import Dense"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/Dense",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "dense_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Dropout",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Dropout",
+                    "import": "from keras.layers import Dropout"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/Dropout",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "dropout_22",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "noise_shape",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "seed",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
                   "code": []
                 },
                 {
@@ -546,7 +851,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "flatten_4",
+                  "default": "flatten_21",
                   "code": []
                 },
                 {
@@ -608,7 +913,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_32",
+                  "default": "layer_134",
                   "code": []
                 },
                 {
@@ -661,7 +966,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "masking_4",
+                  "default": "masking_24",
                   "code": []
                 },
                 {
@@ -691,12 +996,727 @@
                   "code": []
                 }
               ]
+            },
+            {
+              "name": "RepeatVector",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "RepeatVector",
+                    "import": "from keras.layers import RepeatVector"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/RepeatVector",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "repeat_vector_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "n",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "SpatialDropout1D",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SpatialDropout1D",
+                    "import": "from keras.layers import SpatialDropout1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/SpatialDropout1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "spatial_dropout1d_10",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "noise_shape",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "seed",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "SpatialDropout2D",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SpatialDropout2D",
+                    "import": "from keras.layers import SpatialDropout2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/SpatialDropout2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "spatial_dropout2d_10",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "noise_shape",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "seed",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "SpatialDropout3D",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SpatialDropout3D",
+                    "import": "from keras.layers import SpatialDropout3D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/SpatialDropout3D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "spatial_dropout3d_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "noise_shape",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "seed",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
             }
           ]
         },
         {
           "name": "convolutional",
           "nodes": [
+            {
+              "name": "AtrousConvolution1D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AtrousConvolution1D",
+                    "import": "from keras.layers import AtrousConvolution1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/AtrousConvolution1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv1d_16",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "AtrousConvolution2D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AtrousConvolution2D",
+                    "import": "from keras.layers import AtrousConvolution2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/AtrousConvolution2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv2d_21",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "AveragePooling1D",
               "category": [
@@ -728,7 +1748,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling1d_7",
+                  "default": "average_pooling1d_55",
                   "code": []
                 },
                 {
@@ -821,7 +1841,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling2d_7",
+                  "default": "average_pooling2d_55",
                   "code": []
                 },
                 {
@@ -916,7 +1936,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling3d_7",
+                  "default": "average_pooling3d_55",
                   "code": []
                 },
                 {
@@ -983,6 +2003,1054 @@
               ]
             },
             {
+              "name": "Conv1D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Conv1D",
+                    "import": "from keras.layers import Conv1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Conv1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv1d_15",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Conv2D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Conv2D",
+                    "import": "from keras.layers import Conv2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Conv2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv2d_22",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Conv2DTranspose",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Conv2DTranspose",
+                    "import": "from keras.layers import Conv2DTranspose"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Conv2DTranspose",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv2d_transpose_11",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "output_padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Conv3D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Conv3D",
+                    "import": "from keras.layers import Conv3D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Conv3D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv3d_11",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Conv3DTranspose",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Conv3DTranspose",
+                    "import": "from keras.layers import Conv3DTranspose"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Conv3DTranspose",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "conv3d_transpose_14",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "output_padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
               "name": "Cropping1D",
               "category": [
                 "convolutional"
@@ -1013,7 +3081,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "cropping1d_4",
+                  "default": "cropping1d_19",
                   "code": []
                 },
                 {
@@ -1078,7 +3146,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "cropping2d_4",
+                  "default": "cropping2d_19",
                   "code": []
                 },
                 {
@@ -1158,7 +3226,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "cropping3d_4",
+                  "default": "cropping3d_19",
                   "code": []
                 },
                 {
@@ -1212,6 +3280,214 @@
               ]
             },
             {
+              "name": "DepthwiseConv2D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "DepthwiseConv2D",
+                    "import": "from keras.layers import DepthwiseConv2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/DepthwiseConv2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "depthwise_conv2d_20",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depth_multiplier",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "depthwise_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
               "name": "Layer",
               "category": [
                 "convolutional"
@@ -1242,7 +3518,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_33",
+                  "default": "layer_135",
                   "code": []
                 },
                 {
@@ -1295,7 +3571,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling1d_7",
+                  "default": "max_pooling1d_55",
                   "code": []
                 },
                 {
@@ -1388,7 +3664,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling2d_7",
+                  "default": "max_pooling2d_55",
                   "code": []
                 },
                 {
@@ -1483,7 +3759,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling3d_7",
+                  "default": "max_pooling3d_55",
                   "code": []
                 },
                 {
@@ -1550,6 +3826,507 @@
               ]
             },
             {
+              "name": "SeparableConv1D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SeparableConv1D",
+                    "import": "from keras.layers import SeparableConv1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/SeparableConv1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "separable_conv1d_14",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depth_multiplier",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "pointwise_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "depthwise_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "pointwise_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "pointwise_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "SeparableConv2D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SeparableConv2D",
+                    "import": "from keras.layers import SeparableConv2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/SeparableConv2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "separable_conv2d_11",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "dilation_rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depth_multiplier",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "pointwise_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "depthwise_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "pointwise_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "depthwise_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "pointwise_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
               "name": "UpSampling1D",
               "category": [
                 "convolutional"
@@ -1580,7 +4357,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "up_sampling1d_4",
+                  "default": "up_sampling1d_19",
                   "code": []
                 },
                 {
@@ -1642,7 +4419,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "up_sampling2d_4",
+                  "default": "up_sampling2d_19",
                   "code": []
                 },
                 {
@@ -1725,7 +4502,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "up_sampling3d_4",
+                  "default": "up_sampling3d_19",
                   "code": []
                 },
                 {
@@ -1800,7 +4577,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "zero_padding1d_4",
+                  "default": "zero_padding1d_19",
                   "code": []
                 },
                 {
@@ -1865,7 +4642,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "zero_padding2d_4",
+                  "default": "zero_padding2d_19",
                   "code": []
                 },
                 {
@@ -1945,7 +4722,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "zero_padding3d_4",
+                  "default": "zero_padding3d_19",
                   "code": []
                 },
                 {
@@ -2034,7 +4811,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling1d_8",
+                  "default": "average_pooling1d_56",
                   "code": []
                 },
                 {
@@ -2127,7 +4904,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling2d_8",
+                  "default": "average_pooling2d_56",
                   "code": []
                 },
                 {
@@ -2222,7 +4999,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling3d_8",
+                  "default": "average_pooling3d_56",
                   "code": []
                 },
                 {
@@ -2319,7 +5096,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_average_pooling1d_4",
+                  "default": "global_average_pooling1d_19",
                   "code": []
                 },
                 {
@@ -2381,7 +5158,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_average_pooling2d_4",
+                  "default": "global_average_pooling2d_19",
                   "code": []
                 },
                 {
@@ -2443,7 +5220,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_average_pooling3d_4",
+                  "default": "global_average_pooling3d_19",
                   "code": []
                 },
                 {
@@ -2505,7 +5282,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_max_pooling1d_4",
+                  "default": "global_max_pooling1d_19",
                   "code": []
                 },
                 {
@@ -2567,7 +5344,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_max_pooling2d_4",
+                  "default": "global_max_pooling2d_19",
                   "code": []
                 },
                 {
@@ -2629,7 +5406,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "global_max_pooling3d_4",
+                  "default": "global_max_pooling3d_19",
                   "code": []
                 },
                 {
@@ -2691,7 +5468,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_34",
+                  "default": "layer_136",
                   "code": []
                 },
                 {
@@ -2744,7 +5521,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling1d_8",
+                  "default": "max_pooling1d_56",
                   "code": []
                 },
                 {
@@ -2837,7 +5614,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling2d_8",
+                  "default": "max_pooling2d_56",
                   "code": []
                 },
                 {
@@ -2932,7 +5709,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling3d_8",
+                  "default": "max_pooling3d_56",
                   "code": []
                 },
                 {
@@ -3034,7 +5811,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_35",
+                  "default": "layer_137",
                   "code": []
                 },
                 {
@@ -3055,12 +5832,1393 @@
                   "code": []
                 }
               ]
+            },
+            {
+              "name": "LocallyConnected1D",
+              "category": [
+                "local"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "LocallyConnected1D",
+                    "import": "from keras.layers import LocallyConnected1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/local/LocallyConnected1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "locally_connected1d_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "LocallyConnected2D",
+              "category": [
+                "local"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "LocallyConnected2D",
+                    "import": "from keras.layers import LocallyConnected2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/local/LocallyConnected2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "locally_connected2d_11",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "filters",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "kernel_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    0,
+                    0
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "linear",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
             }
           ]
         },
         {
           "name": "recurrent",
           "nodes": [
+            {
+              "name": "GRU",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GRU",
+                    "import": "from keras.layers import GRU"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/GRU",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "gru_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "return_sequences",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "return_state",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "go_backwards",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "stateful",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "unroll",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "recurrent_activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "hard_sigmoid",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "implementation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "reset_after",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "GRUCell",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GRUCell",
+                    "import": "from keras.layers import GRUCell"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/GRUCell",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "gru_cell_27",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "recurrent_activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "hard_sigmoid",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "implementation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "reset_after",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "LSTM",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "LSTM",
+                    "import": "from keras.layers import LSTM"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/LSTM",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "lstm_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "return_sequences",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "return_state",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "go_backwards",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "stateful",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "unroll",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "recurrent_activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "hard_sigmoid",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "unit_forget_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "implementation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "LSTMCell",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "LSTMCell",
+                    "import": "from keras.layers import LSTMCell"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/LSTMCell",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "lstm_cell_28",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "recurrent_activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "hard_sigmoid",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "unit_forget_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "implementation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 1,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "Layer",
               "category": [
@@ -3092,7 +7250,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_36",
+                  "default": "layer_138",
                   "code": []
                 },
                 {
@@ -3145,7 +7303,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "recurrent_4",
+                  "default": "recurrent_31",
                   "code": []
                 },
                 {
@@ -3220,6 +7378,452 @@
                   "code": []
                 }
               ]
+            },
+            {
+              "name": "SimpleRNN",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SimpleRNN",
+                    "import": "from keras.layers import SimpleRNN"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/SimpleRNN",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "simple_rnn_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "return_sequences",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "return_state",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "go_backwards",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "stateful",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "unroll",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "SimpleRNNCell",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "SimpleRNNCell",
+                    "import": "from keras.layers import SimpleRNNCell"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/SimpleRNNCell",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "simple_rnn_cell_28",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "units",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "activation",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "tanh",
+                  "code": []
+                },
+                {
+                  "name": "use_bias",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "kernel_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "VarianceScaling",
+                    "config": {
+                      "scale": 1.0,
+                      "mode": "fan_avg",
+                      "distribution": "uniform",
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "recurrent_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "bias_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "code": []
+                },
+                {
+                  "name": "kernel_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "kernel_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "bias_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "recurrent_dropout",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
             }
           ]
         },
@@ -3257,7 +7861,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "batch_normalization_4",
+                  "default": "batch_normalization_14",
                   "code": []
                 },
                 {
@@ -3439,7 +8043,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_37",
+                  "default": "layer_139",
                   "code": []
                 },
                 {
@@ -3466,6 +8070,159 @@
         {
           "name": "embeddings",
           "nodes": [
+            {
+              "name": "Embedding",
+              "category": [
+                "embeddings"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Embedding",
+                    "import": "from keras.layers import Embedding"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/embeddings/Embedding",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "embedding_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "batch_input_shape",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    null,
+                    null
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "dtype",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "float32",
+                  "code": []
+                },
+                {
+                  "name": "input_dim",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "output_dim",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "embeddings_initializer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": {
+                    "class_name": "RandomUniform",
+                    "config": {
+                      "minval": -0.05,
+                      "maxval": 0.05,
+                      "seed": null
+                    }
+                  },
+                  "code": []
+                },
+                {
+                  "name": "embeddings_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "activity_regularizer",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "embeddings_constraint",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "mask_zero",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": false,
+                  "code": []
+                },
+                {
+                  "name": "input_length",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": null,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "Layer",
               "category": [
@@ -3497,7 +8254,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_38",
+                  "default": "layer_140",
                   "code": []
                 },
                 {
@@ -3524,6 +8281,192 @@
         {
           "name": "noise",
           "nodes": [
+            {
+              "name": "AlphaDropout",
+              "category": [
+                "noise"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AlphaDropout",
+                    "import": "from keras.layers import AlphaDropout"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/noise/AlphaDropout",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "alpha_dropout_17",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "GaussianDropout",
+              "category": [
+                "noise"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GaussianDropout",
+                    "import": "from keras.layers import GaussianDropout"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/noise/GaussianDropout",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "gaussian_dropout_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "rate",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "GaussianNoise",
+              "category": [
+                "noise"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GaussianNoise",
+                    "import": "from keras.layers import GaussianNoise"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/noise/GaussianNoise",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "gaussian_noise_8",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "stddev",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "Layer",
               "category": [
@@ -3555,7 +8498,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_39",
+                  "default": "layer_141",
                   "code": []
                 },
                 {
@@ -3613,7 +8556,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "layer_40",
+                  "default": "layer_142",
                   "code": []
                 },
                 {

@@ -7,6 +7,218 @@
           "name": "merge",
           "nodes": [
             {
+              "name": "Average",
+              "category": [
+                "merge"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Average",
+                    "import": "from keras.layers import Average"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/merge/Average",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "average_3",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Subtract",
+              "category": [
+                "merge"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Subtract",
+                    "import": "from keras.layers import Subtract"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/merge/Subtract",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "subtract_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Maximum",
+              "category": [
+                "merge"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Maximum",
+                    "import": "from keras.layers import Maximum"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/merge/Maximum",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "maximum_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Layer",
+              "category": [
+                "merge"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Layer",
+                    "import": "from keras.layers import Layer"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/merge/Layer",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "layer_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
               "name": "Add",
               "category": [
                 "merge"
@@ -38,59 +250,6 @@
                   "visible": true,
                   "editable": true,
                   "default": "add_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Average",
-              "category": [
-                "merge"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Average",
-                    "import": "from keras.layers import Average"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/merge/Average",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "average_1",
                   "code": []
                 },
                 {
@@ -162,112 +321,6 @@
                   "visible": true,
                   "editable": true,
                   "default": -1,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Layer",
-              "category": [
-                "merge"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Layer",
-                    "import": "from keras.layers import Layer"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/merge/Layer",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "layer_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Maximum",
-              "category": [
-                "merge"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Maximum",
-                    "import": "from keras.layers import Maximum"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/merge/Maximum",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "maximum_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
                   "code": []
                 },
                 {
@@ -385,23 +438,28 @@
                   "code": []
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "name": "core",
+          "nodes": [
             {
-              "name": "Subtract",
+              "name": "Masking",
               "category": [
-                "merge"
+                "core"
               ],
               "toolbox": "Keras",
               "code": [
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "Subtract",
-                    "import": "from keras.layers import Subtract"
+                    "name": "Masking",
+                    "import": "from keras.layers import Masking"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/merge/Subtract",
+              "web_url": "https://keras.io/layers/core/Masking",
               "ports": [
                 {
                   "name": "INPUT",
@@ -417,7 +475,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "subtract_1",
+                  "default": "masking_1",
                   "code": []
                 },
                 {
@@ -430,6 +488,15 @@
                   "code": []
                 },
                 {
+                  "name": "mask_value",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": 0.0,
+                  "code": []
+                },
+                {
                   "name": "OUTPUT",
                   "input": false,
                   "output": true,
@@ -438,12 +505,7 @@
                   "code": []
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "core",
-          "nodes": [
+            },
             {
               "name": "ActivityRegularization",
               "category": [
@@ -503,6 +565,59 @@
                   "visible": true,
                   "editable": true,
                   "default": 0.0,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Layer",
+              "category": [
+                "core"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Layer",
+                    "import": "from keras.layers import Layer"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/core/Layer",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "layer_2",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
                   "code": []
                 },
                 {
@@ -576,121 +691,6 @@
                   "code": []
                 }
               ]
-            },
-            {
-              "name": "Layer",
-              "category": [
-                "core"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Layer",
-                    "import": "from keras.layers import Layer"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/core/Layer",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "layer_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Masking",
-              "category": [
-                "core"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Masking",
-                    "import": "from keras.layers import Masking"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/core/Masking",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "masking_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "mask_value",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": 0.0,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
             }
           ]
         },
@@ -698,7 +698,7 @@
           "name": "convolutional",
           "nodes": [
             {
-              "name": "AveragePooling1D",
+              "name": "ZeroPadding1D",
               "category": [
                 "convolutional"
               ],
@@ -707,12 +707,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "AveragePooling1D",
-                    "import": "from keras.layers import AveragePooling1D"
+                    "name": "ZeroPadding1D",
+                    "import": "from keras.layers import ZeroPadding1D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/convolutional/AveragePooling1D",
+              "web_url": "https://keras.io/layers/convolutional/ZeroPadding1D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -728,7 +728,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling1d_1",
+                  "default": "zero_padding1d_1",
                   "code": []
                 },
                 {
@@ -741,43 +741,15 @@
                   "code": []
                 },
                 {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
                   "name": "padding",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
+                  "default": [
+                    1,
+                    1
+                  ],
                   "code": []
                 },
                 {
@@ -886,7 +858,7 @@
               ]
             },
             {
-              "name": "AveragePooling3D",
+              "name": "MaxPooling2D",
               "category": [
                 "convolutional"
               ],
@@ -895,12 +867,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "AveragePooling3D",
-                    "import": "from keras.layers import AveragePooling3D"
+                    "name": "MaxPooling2D",
+                    "import": "from keras.layers import MaxPooling2D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/convolutional/AveragePooling3D",
+              "web_url": "https://keras.io/layers/convolutional/MaxPooling2D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -916,7 +888,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling3d_1",
+                  "default": "max_pooling2d_1",
                   "code": []
                 },
                 {
@@ -935,7 +907,6 @@
                   "visible": true,
                   "editable": true,
                   "default": [
-                    2,
                     2,
                     2
                   ],
@@ -958,7 +929,6 @@
                   "editable": true,
                   "default": [
                     2,
-                    2,
                     2
                   ],
                   "code": []
@@ -970,71 +940,6 @@
                   "visible": true,
                   "editable": true,
                   "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Cropping1D",
-              "category": [
-                "convolutional"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Cropping1D",
-                    "import": "from keras.layers import Cropping1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/convolutional/Cropping1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "cropping1d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "cropping",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
                   "code": []
                 },
                 {
@@ -1128,90 +1033,6 @@
               ]
             },
             {
-              "name": "Cropping3D",
-              "category": [
-                "convolutional"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Cropping3D",
-                    "import": "from keras.layers import Cropping3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/convolutional/Cropping3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "cropping3d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "cropping",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    [
-                      1,
-                      1
-                    ],
-                    [
-                      1,
-                      1
-                    ],
-                    [
-                      1,
-                      1
-                    ]
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
               "name": "Layer",
               "category": [
                 "convolutional"
@@ -1252,6 +1073,161 @@
                   "visible": true,
                   "editable": true,
                   "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "ZeroPadding2D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "ZeroPadding2D",
+                    "import": "from keras.layers import ZeroPadding2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/ZeroPadding2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "zero_padding2d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "UpSampling3D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "UpSampling3D",
+                    "import": "from keras.layers import UpSampling3D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/UpSampling3D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "up_sampling3d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    2,
+                    2,
+                    2
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
                   "code": []
                 },
                 {
@@ -1336,101 +1312,6 @@
                   "visible": true,
                   "editable": true,
                   "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "MaxPooling2D",
-              "category": [
-                "convolutional"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "MaxPooling2D",
-                    "import": "from keras.layers import MaxPooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/convolutional/MaxPooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "max_pooling2d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
                   "code": []
                 },
                 {
@@ -1612,6 +1493,164 @@
               ]
             },
             {
+              "name": "Cropping1D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Cropping1D",
+                    "import": "from keras.layers import Cropping1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/Cropping1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "cropping1d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "cropping",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    1,
+                    1
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "AveragePooling1D",
+              "category": [
+                "convolutional"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AveragePooling1D",
+                    "import": "from keras.layers import AveragePooling1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/convolutional/AveragePooling1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "average_pooling1d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    2
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "pool_size",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    2
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "padding",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
               "name": "UpSampling2D",
               "category": [
                 "convolutional"
@@ -1695,7 +1734,7 @@
               ]
             },
             {
-              "name": "UpSampling3D",
+              "name": "AveragePooling3D",
               "category": [
                 "convolutional"
               ],
@@ -1704,12 +1743,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "UpSampling3D",
-                    "import": "from keras.layers import UpSampling3D"
+                    "name": "AveragePooling3D",
+                    "import": "from keras.layers import AveragePooling3D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/convolutional/UpSampling3D",
+              "web_url": "https://keras.io/layers/convolutional/AveragePooling3D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -1725,7 +1764,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "up_sampling3d_1",
+                  "default": "average_pooling3d_1",
                   "code": []
                 },
                 {
@@ -1738,7 +1777,7 @@
                   "code": []
                 },
                 {
-                  "name": "size",
+                  "name": "pool_size",
                   "input": false,
                   "output": false,
                   "visible": true,
@@ -1751,147 +1790,24 @@
                   "code": []
                 },
                 {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "ZeroPadding1D",
-              "category": [
-                "convolutional"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "ZeroPadding1D",
-                    "import": "from keras.layers import ZeroPadding1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/convolutional/ZeroPadding1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "zero_padding1d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
                   "name": "padding",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": [
-                    1,
-                    1
-                  ],
+                  "default": "valid",
                   "code": []
                 },
                 {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "ZeroPadding2D",
-              "category": [
-                "convolutional"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "ZeroPadding2D",
-                    "import": "from keras.layers import ZeroPadding2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/convolutional/ZeroPadding2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "zero_padding2d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "padding",
+                  "name": "strides",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
                   "default": [
-                    [
-                      1,
-                      1
-                    ],
-                    [
-                      1,
-                      1
-                    ]
+                    2,
+                    2,
+                    2
                   ],
                   "code": []
                 },
@@ -1997,28 +1913,23 @@
                   "code": []
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "pooling",
-          "nodes": [
+            },
             {
-              "name": "AveragePooling1D",
+              "name": "Cropping3D",
               "category": [
-                "pooling"
+                "convolutional"
               ],
               "toolbox": "Keras",
               "code": [
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "AveragePooling1D",
-                    "import": "from keras.layers import AveragePooling1D"
+                    "name": "Cropping3D",
+                    "import": "from keras.layers import Cropping3D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/pooling/AveragePooling1D",
+              "web_url": "https://keras.io/layers/convolutional/Cropping3D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -2034,7 +1945,96 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling1d_2",
+                  "default": "cropping3d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "cropping",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  "code": []
+                },
+                {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pooling",
+          "nodes": [
+            {
+              "name": "MaxPooling1D",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "MaxPooling1D",
+                    "import": "from keras.layers import MaxPooling1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/MaxPooling1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "max_pooling1d_2",
                   "code": []
                 },
                 {
@@ -2097,7 +2097,7 @@
               ]
             },
             {
-              "name": "AveragePooling2D",
+              "name": "GlobalMaxPooling2D",
               "category": [
                 "pooling"
               ],
@@ -2106,12 +2106,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "AveragePooling2D",
-                    "import": "from keras.layers import AveragePooling2D"
+                    "name": "GlobalMaxPooling2D",
+                    "import": "from keras.layers import GlobalMaxPooling2D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/pooling/AveragePooling2D",
+              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling2D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -2127,7 +2127,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "average_pooling2d_2",
+                  "default": "global_max_pooling2d_1",
                   "code": []
                 },
                 {
@@ -2140,36 +2140,65 @@
                   "code": []
                 },
                 {
-                  "name": "pool_size",
+                  "name": "data_format",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
+                  "default": "channels_last",
                   "code": []
                 },
                 {
-                  "name": "padding",
+                  "name": "OUTPUT",
                   "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "GlobalAveragePooling1D",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GlobalAveragePooling1D",
+                    "import": "from keras.layers import GlobalAveragePooling1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "valid",
                   "code": []
                 },
                 {
-                  "name": "strides",
+                  "name": "name",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
+                  "default": "global_average_pooling1d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
                   "code": []
                 },
                 {
@@ -2289,353 +2318,6 @@
               ]
             },
             {
-              "name": "AveragePooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "AveragePooling1D",
-                    "import": "from keras.layers import AveragePooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/AveragePooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "average_pooling1d_3",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "AveragePooling2D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "AveragePooling2D",
-                    "import": "from keras.layers import AveragePooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/AveragePooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "average_pooling2d_3",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "AveragePooling3D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "AveragePooling3D",
-                    "import": "from keras.layers import AveragePooling3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/AveragePooling3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "average_pooling3d_3",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalAveragePooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalAveragePooling1D",
-                    "import": "from keras.layers import GlobalAveragePooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_average_pooling1d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
               "name": "GlobalAveragePooling2D",
               "category": [
                 "pooling"
@@ -2676,867 +2358,6 @@
                   "visible": true,
                   "editable": true,
                   "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalAveragePooling3D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalAveragePooling3D",
-                    "import": "from keras.layers import GlobalAveragePooling3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_average_pooling3d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalAveragePooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalAveragePooling1D",
-                    "import": "from keras.layers import GlobalAveragePooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_average_pooling1d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalAveragePooling2D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalAveragePooling2D",
-                    "import": "from keras.layers import GlobalAveragePooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_average_pooling2d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalAveragePooling3D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalAveragePooling3D",
-                    "import": "from keras.layers import GlobalAveragePooling3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_average_pooling3d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling1D",
-                    "import": "from keras.layers import GlobalMaxPooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling1d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling2D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling2D",
-                    "import": "from keras.layers import GlobalMaxPooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling2d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling3D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling3D",
-                    "import": "from keras.layers import GlobalMaxPooling3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling3d_1",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling1D",
-                    "import": "from keras.layers import GlobalMaxPooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling1d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling2D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling2D",
-                    "import": "from keras.layers import GlobalMaxPooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling2d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "GlobalMaxPooling3D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "GlobalMaxPooling3D",
-                    "import": "from keras.layers import GlobalMaxPooling3D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling3D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "global_max_pooling3d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Layer",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Layer",
-                    "import": "from keras.layers import Layer"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/Layer",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "layer_4",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "MaxPooling1D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "MaxPooling1D",
-                    "import": "from keras.layers import MaxPooling1D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/MaxPooling1D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "max_pooling1d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "data_format",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "channels_last",
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "MaxPooling2D",
-              "category": [
-                "pooling"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "MaxPooling2D",
-                    "import": "from keras.layers import MaxPooling2D"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/pooling/MaxPooling2D",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "max_pooling2d_2",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "pool_size",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
-                  "code": []
-                },
-                {
-                  "name": "padding",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "valid",
-                  "code": []
-                },
-                {
-                  "name": "strides",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": [
-                    2,
-                    2
-                  ],
                   "code": []
                 },
                 {
@@ -3656,7 +2477,7 @@
               ]
             },
             {
-              "name": "MaxPooling1D",
+              "name": "GlobalMaxPooling3D",
               "category": [
                 "pooling"
               ],
@@ -3665,12 +2486,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "MaxPooling1D",
-                    "import": "from keras.layers import MaxPooling1D"
+                    "name": "GlobalMaxPooling3D",
+                    "import": "from keras.layers import GlobalMaxPooling3D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/pooling/MaxPooling1D",
+              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling3D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -3686,7 +2507,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling1d_3",
+                  "default": "global_max_pooling3d_1",
                   "code": []
                 },
                 {
@@ -3699,14 +2520,65 @@
                   "code": []
                 },
                 {
-                  "name": "strides",
+                  "name": "data_format",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": [
-                    2
-                  ],
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "AveragePooling2D",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AveragePooling2D",
+                    "import": "from keras.layers import AveragePooling2D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/AveragePooling2D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "average_pooling2d_2",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
                   "code": []
                 },
                 {
@@ -3716,6 +2588,7 @@
                   "visible": true,
                   "editable": true,
                   "default": [
+                    2,
                     2
                   ],
                   "code": []
@@ -3727,6 +2600,18 @@
                   "visible": true,
                   "editable": true,
                   "default": "valid",
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    2,
+                    2
+                  ],
                   "code": []
                 },
                 {
@@ -3779,7 +2664,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling2d_3",
+                  "default": "max_pooling2d_2",
                   "code": []
                 },
                 {
@@ -3844,7 +2729,7 @@
               ]
             },
             {
-              "name": "MaxPooling3D",
+              "name": "GlobalMaxPooling1D",
               "category": [
                 "pooling"
               ],
@@ -3853,12 +2738,12 @@
                 {
                   "language": "Keras",
                   "argument": {
-                    "name": "MaxPooling3D",
-                    "import": "from keras.layers import MaxPooling3D"
+                    "name": "GlobalMaxPooling1D",
+                    "import": "from keras.layers import GlobalMaxPooling1D"
                   }
                 }
               ],
-              "web_url": "https://keras.io/layers/pooling/MaxPooling3D",
+              "web_url": "https://keras.io/layers/pooling/GlobalMaxPooling1D",
               "ports": [
                 {
                   "name": "INPUT",
@@ -3874,7 +2759,7 @@
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": "max_pooling3d_3",
+                  "default": "global_max_pooling1d_1",
                   "code": []
                 },
                 {
@@ -3887,14 +2772,85 @@
                   "code": []
                 },
                 {
+                  "name": "data_format",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "AveragePooling1D",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "AveragePooling1D",
+                    "import": "from keras.layers import AveragePooling1D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/AveragePooling1D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "average_pooling1d_2",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "strides",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": [
+                    2
+                  ],
+                  "code": []
+                },
+                {
                   "name": "pool_size",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
                   "default": [
-                    2,
-                    2,
                     2
                   ],
                   "code": []
@@ -3909,16 +2865,65 @@
                   "code": []
                 },
                 {
-                  "name": "strides",
+                  "name": "data_format",
                   "input": false,
                   "output": false,
                   "visible": true,
                   "editable": true,
-                  "default": [
-                    2,
-                    2,
-                    2
-                  ],
+                  "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "GlobalAveragePooling3D",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "GlobalAveragePooling3D",
+                    "import": "from keras.layers import GlobalAveragePooling3D"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/GlobalAveragePooling3D",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "global_average_pooling3d_1",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
                   "code": []
                 },
                 {
@@ -3928,6 +2933,59 @@
                   "visible": true,
                   "editable": true,
                   "default": "channels_last",
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
+            {
+              "name": "Layer",
+              "category": [
+                "pooling"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Layer",
+                    "import": "from keras.layers import Layer"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/pooling/Layer",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "layer_4",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
                   "code": []
                 },
                 {
@@ -4003,59 +3061,6 @@
         {
           "name": "recurrent",
           "nodes": [
-            {
-              "name": "Layer",
-              "category": [
-                "recurrent"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Layer",
-                    "import": "from keras.layers import Layer"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/recurrent/Layer",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "layer_6",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
             {
               "name": "Recurrent",
               "category": [
@@ -4162,12 +3167,118 @@
                   "code": []
                 }
               ]
+            },
+            {
+              "name": "Layer",
+              "category": [
+                "recurrent"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Layer",
+                    "import": "from keras.layers import Layer"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/recurrent/Layer",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "layer_6",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
             }
           ]
         },
         {
           "name": "normalization",
           "nodes": [
+            {
+              "name": "Layer",
+              "category": [
+                "normalization"
+              ],
+              "toolbox": "Keras",
+              "code": [
+                {
+                  "language": "Keras",
+                  "argument": {
+                    "name": "Layer",
+                    "import": "from keras.layers import Layer"
+                  }
+                }
+              ],
+              "web_url": "https://keras.io/layers/normalization/Layer",
+              "ports": [
+                {
+                  "name": "INPUT",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                },
+                {
+                  "name": "name",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": "layer_7",
+                  "code": []
+                },
+                {
+                  "name": "trainable",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true,
+                  "default": true,
+                  "code": []
+                },
+                {
+                  "name": "OUTPUT",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true,
+                  "code": []
+                }
+              ]
+            },
             {
               "name": "BatchNormalization",
               "category": [
@@ -4338,59 +3449,6 @@
                   "visible": true,
                   "editable": true,
                   "default": null,
-                  "code": []
-                },
-                {
-                  "name": "OUTPUT",
-                  "input": false,
-                  "output": true,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                }
-              ]
-            },
-            {
-              "name": "Layer",
-              "category": [
-                "normalization"
-              ],
-              "toolbox": "Keras",
-              "code": [
-                {
-                  "language": "Keras",
-                  "argument": {
-                    "name": "Layer",
-                    "import": "from keras.layers import Layer"
-                  }
-                }
-              ],
-              "web_url": "https://keras.io/layers/normalization/Layer",
-              "ports": [
-                {
-                  "name": "INPUT",
-                  "input": true,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "code": []
-                },
-                {
-                  "name": "name",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": "layer_7",
-                  "code": []
-                },
-                {
-                  "name": "trainable",
-                  "input": false,
-                  "output": false,
-                  "visible": true,
-                  "editable": true,
-                  "default": true,
                   "code": []
                 },
                 {

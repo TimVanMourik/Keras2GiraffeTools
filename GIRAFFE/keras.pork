@@ -1,19 +1,48 @@
 {
-  "links": [],
+  "links": [
+    {
+      "from": "931640ec-af3d-4ca5-aef7-878b162fb14a",
+      "to": "7c4ee2a0-a4c0-462a-8697-5ccf4078b088"
+    },
+    {
+      "from": "e5d85057-d347-4110-a502-61bd626663a5",
+      "to": "dac19fb8-9597-40e4-a8ba-0defcde6006f"
+    },
+    {
+      "from": "908669d9-2113-4573-b55f-912ca3ee1b61",
+      "to": "af8ce0c8-dab5-454e-a0fc-686805c102a7"
+    },
+    {
+      "from": "ec3ad422-9c44-457f-9281-d583a3a29a07",
+      "to": "17a304e6-eaef-43ef-b2ad-fbaa61677ac9"
+    },
+    {
+      "from": "736e83b3-277f-478c-9cdf-a69eac77c6df",
+      "to": "68af4713-fb37-42a0-a792-dfe8d7f525c1"
+    },
+    {
+      "from": "c5037d65-825d-4873-993c-f21540e9540c",
+      "to": "427e6697-d3ea-4ee7-b234-1960e9f5d816"
+    },
+    {
+      "from": "21650dae-a84c-4648-995f-1aa1c32e868b",
+      "to": "b1494cba-71b8-435f-955b-4d9aeecf08ba"
+    }
+  ],
   "nodes": [
     {
-      "name": "AveragePooling1D",
-      "class": "AveragePooling1D",
+      "name": "Conv2D",
+      "class": "Conv2D",
       "category": [
-        "pooling"
+        "convolutional"
       ],
       "ports": [
         {
           "base": "INPUT",
           "editable": true,
-          "id": "c9fb4796-a43a-41ec-9fc1-bf829c643a3d",
+          "id": "3b581a91-86cb-4c56-8be3-d03e1b13e635",
           "input": true,
-          "inputPort": "44a91583-0f8c-4e1c-b9df-10891b04aa34",
+          "inputPort": "1cd91732-e71f-41df-8fd8-d3350485800d",
           "name": "INPUT",
           "output": false,
           "outputPort": false,
@@ -24,20 +53,20 @@
         {
           "base": "name",
           "editable": true,
-          "id": "7d42d7bb-00cd-4963-b05a-712c3521e046",
+          "id": "4b3f207e-4874-4810-940e-996a009ca135",
           "input": false,
           "inputPort": false,
           "name": "name",
           "output": false,
           "outputPort": false,
-          "value": "max_pooling1d_7",
+          "value": "conv2d_22",
           "visible": true,
           "iterator": false
         },
         {
           "base": "trainable",
           "editable": true,
-          "id": "a4210abe-0c6c-42d3-86ee-ffadce50cbe0",
+          "id": "2b96d863-0325-4af9-9516-4bf02f67516e",
           "input": false,
           "inputPort": false,
           "name": "trainable",
@@ -48,31 +77,46 @@
           "iterator": false
         },
         {
+          "base": "filters",
+          "editable": true,
+          "id": "57ed61e4-4a7d-43ef-b767-7245a8ba132e",
+          "input": false,
+          "inputPort": false,
+          "name": "filters",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_size",
+          "editable": true,
+          "id": "947890b5-aa80-4404-9b3a-d79561bccc49",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            0,
+            0
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
           "base": "strides",
           "editable": true,
-          "id": "51946b38-01dc-4813-b6b4-959eb2120dcb",
+          "id": "478255be-f8e7-45b7-9545-97d3a5cb5c25",
           "input": false,
           "inputPort": false,
           "name": "strides",
           "output": false,
           "outputPort": false,
           "value": [
-            2
-          ],
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "pool_size",
-          "editable": true,
-          "id": "20cda99d-c2e9-48a0-bf3b-33a4f6010210",
-          "input": false,
-          "inputPort": false,
-          "name": "pool_size",
-          "output": false,
-          "outputPort": false,
-          "value": [
-            2
+            1,
+            1
           ],
           "visible": true,
           "iterator": false
@@ -80,7 +124,7 @@
         {
           "base": "padding",
           "editable": true,
-          "id": "2f0c4d79-900b-43ec-9b28-af35f10a158a",
+          "id": "b08faaba-e63e-4758-bafe-0df0d4155953",
           "input": false,
           "inputPort": false,
           "name": "padding",
@@ -93,7 +137,7 @@
         {
           "base": "data_format",
           "editable": true,
-          "id": "1dd701f0-9534-4d74-ab3d-461fdff9c0f7",
+          "id": "7623b27a-c0d0-486f-bddc-80b72cd73f2a",
           "input": false,
           "inputPort": false,
           "name": "data_format",
@@ -104,39 +148,192 @@
           "iterator": false
         },
         {
+          "base": "dilation_rate",
+          "editable": true,
+          "id": "7bc115a7-c59f-4ba9-b7fd-896b0b2e8956",
+          "input": false,
+          "inputPort": false,
+          "name": "dilation_rate",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            1,
+            1
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activation",
+          "editable": true,
+          "id": "a025f6b8-3328-4be2-8789-224d10aa2023",
+          "input": false,
+          "inputPort": false,
+          "name": "activation",
+          "output": false,
+          "outputPort": false,
+          "value": "linear",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "use_bias",
+          "editable": true,
+          "id": "e38ce0f5-daa6-4b51-ab1c-d911fe0a0f32",
+          "input": false,
+          "inputPort": false,
+          "name": "use_bias",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_initializer",
+          "editable": true,
+          "id": "103d62ad-e2af-4801-be91-c5565f125cf4",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_initializer",
+          "editable": true,
+          "id": "c83eefc5-f86d-4dc3-ae31-1bb22989dcc7",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_regularizer",
+          "editable": true,
+          "id": "0e4d1269-e209-4f3b-8119-d0acdf2fa785",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_regularizer",
+          "editable": true,
+          "id": "d378a3e5-e950-4fc0-9622-31abaf600cb2",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activity_regularizer",
+          "editable": true,
+          "id": "0cdd1876-28c9-44db-8065-5d28f47b3c74",
+          "input": false,
+          "inputPort": false,
+          "name": "activity_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_constraint",
+          "editable": true,
+          "id": "7bcacfe2-a4fe-4266-9573-a4b9e664aaae",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_constraint",
+          "editable": true,
+          "id": "8ad84e19-36b0-4c1b-a1ce-dd69eea3f6b9",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
           "base": "OUTPUT",
           "editable": true,
-          "id": "c91b7543-8034-47c7-a379-552d2c5a043e",
+          "id": "1f0fd6d9-cda8-46c0-b34d-805f8142e291",
           "input": false,
           "inputPort": false,
           "name": "OUTPUT",
           "output": true,
-          "outputPort": "2d12b13c-eeed-493e-b4bd-2f96bab22855",
+          "outputPort": "931640ec-af3d-4ca5-aef7-878b162fb14a",
           "value": "",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        539.8064376611774,
-        298.6787292570212
+        258.5749579821729,
+        219.40616071756165
       ],
-      "code": [],
-      "web_url": "https://keras.io/layers/pooling/AveragePooling1D"
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Conv2D",
+            "import": "from keras.layers import Conv2D"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/convolutional/Conv2D",
+      "colour": "#BBB"
     },
     {
-      "name": "GlobalAvgPool1D",
-      "class": "GlobalAvgPool1D",
+      "name": "Conv2D_1",
+      "class": "Conv2D",
       "category": [
-        "pooling"
+        "convolutional"
       ],
       "ports": [
         {
           "base": "INPUT",
           "editable": true,
-          "id": "1a3e31c0-f7eb-4295-89a2-3cef5db27206",
+          "id": "d0494320-b523-4df9-8059-36d649cb879d",
           "input": true,
-          "inputPort": "0620da0b-29df-4c8b-b41d-9e5346812b1d",
+          "inputPort": "7c4ee2a0-a4c0-462a-8697-5ccf4078b088",
           "name": "INPUT",
           "output": false,
           "outputPort": false,
@@ -147,20 +344,20 @@
         {
           "base": "name",
           "editable": true,
-          "id": "97ed4800-58f3-4e97-bc45-e15ce57a0e7a",
+          "id": "a33c176c-5373-4f13-b992-f82fb9d164ab",
           "input": false,
           "inputPort": false,
           "name": "name",
           "output": false,
           "outputPort": false,
-          "value": "max_pooling1d_51",
+          "value": "conv2d_22",
           "visible": true,
           "iterator": false
         },
         {
           "base": "trainable",
           "editable": true,
-          "id": "ab636ec9-b849-402a-9993-bca04911a42b",
+          "id": "55cfd330-3ba1-4c40-b08a-1aa0f450d07a",
           "input": false,
           "inputPort": false,
           "name": "trainable",
@@ -171,31 +368,46 @@
           "iterator": false
         },
         {
+          "base": "filters",
+          "editable": true,
+          "id": "785dfc78-2852-4b18-9747-d9f5677a7e8c",
+          "input": false,
+          "inputPort": false,
+          "name": "filters",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_size",
+          "editable": true,
+          "id": "ea8c31fe-5eea-400c-80f6-a9dea2623e58",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_size",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            0,
+            0
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
           "base": "strides",
           "editable": true,
-          "id": "5da6a26f-793a-4811-a5e6-30dedd7e4d19",
+          "id": "4c7ecaf8-512b-4d94-b043-4b01adc5fd6b",
           "input": false,
           "inputPort": false,
           "name": "strides",
           "output": false,
           "outputPort": false,
           "value": [
-            2
-          ],
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "pool_size",
-          "editable": true,
-          "id": "005b9836-f67f-49e5-8998-75bec9d120c3",
-          "input": false,
-          "inputPort": false,
-          "name": "pool_size",
-          "output": false,
-          "outputPort": false,
-          "value": [
-            2
+            1,
+            1
           ],
           "visible": true,
           "iterator": false
@@ -203,7 +415,7 @@
         {
           "base": "padding",
           "editable": true,
-          "id": "7b4e4203-62e8-4a8a-83cc-24579523e69f",
+          "id": "ace43137-f7fa-45b1-979e-a4bd8acbd92e",
           "input": false,
           "inputPort": false,
           "name": "padding",
@@ -216,7 +428,7 @@
         {
           "base": "data_format",
           "editable": true,
-          "id": "65f31603-5d91-4fdc-8a2d-c659485c9a44",
+          "id": "f7397118-5c80-435f-87ce-1a2aa101ce71",
           "input": false,
           "inputPort": false,
           "name": "data_format",
@@ -227,39 +439,192 @@
           "iterator": false
         },
         {
+          "base": "dilation_rate",
+          "editable": true,
+          "id": "f7edb513-ceb0-4c60-9788-230a26713326",
+          "input": false,
+          "inputPort": false,
+          "name": "dilation_rate",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            1,
+            1
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activation",
+          "editable": true,
+          "id": "9243e1fc-75da-4657-9715-52ab015d5bb9",
+          "input": false,
+          "inputPort": false,
+          "name": "activation",
+          "output": false,
+          "outputPort": false,
+          "value": "linear",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "use_bias",
+          "editable": true,
+          "id": "01e5d379-fda2-4aee-b04e-f69bd282b627",
+          "input": false,
+          "inputPort": false,
+          "name": "use_bias",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_initializer",
+          "editable": true,
+          "id": "c9dcfa52-c437-47a3-b7c1-27715fb81c63",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_initializer",
+          "editable": true,
+          "id": "ce2e1467-4875-467a-bc59-9ebc487f5844",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_regularizer",
+          "editable": true,
+          "id": "3682af92-714e-4bea-8803-bab7f4f7b98e",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_regularizer",
+          "editable": true,
+          "id": "af5dee4c-66db-48be-aef0-58880670d33b",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activity_regularizer",
+          "editable": true,
+          "id": "2b0601b9-ad13-4d4f-b280-cb8934c64006",
+          "input": false,
+          "inputPort": false,
+          "name": "activity_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_constraint",
+          "editable": true,
+          "id": "20582289-ca27-445c-a6b1-e8e09d0ac935",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_constraint",
+          "editable": true,
+          "id": "7760cf6a-498a-44a9-af21-b9134393ad31",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
           "base": "OUTPUT",
           "editable": true,
-          "id": "cf23ec66-faaa-441b-bb49-507f29fedbe1",
+          "id": "40951dc5-9b21-432d-b716-7af1ffb037b1",
           "input": false,
           "inputPort": false,
           "name": "OUTPUT",
           "output": true,
-          "outputPort": "f8b85f8a-8334-4ebb-96d6-57a1cd7701e5",
+          "outputPort": "e5d85057-d347-4110-a502-61bd626663a5",
           "value": "",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        811.4182245019689,
-        518.0574508787149
+        539.4627767700006,
+        425.1267973686162
       ],
-      "code": [],
-      "web_url": "https://keras.io/layers/pooling/GlobalAvgPool1D"
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Conv2D",
+            "import": "from keras.layers import Conv2D"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/convolutional/Conv2D",
+      "colour": "#BBB"
     },
     {
-      "name": "Add",
-      "class": "Add",
+      "name": "MaxPooling2D",
+      "class": "MaxPooling2D",
       "category": [
-        "merge"
+        "convolutional"
       ],
       "ports": [
         {
           "base": "INPUT",
           "editable": true,
-          "id": "86e2e0fe-15e7-41da-b54c-c28d7c8a9d25",
+          "id": "4709a75f-5e3b-430a-9b3f-faf5ca6e9aff",
           "input": true,
-          "inputPort": "7bd10631-48a2-4e29-aa19-3f324bd77bd7",
+          "inputPort": "dac19fb8-9597-40e4-a8ba-0defcde6006f",
           "name": "INPUT",
           "output": false,
           "outputPort": false,
@@ -270,20 +635,20 @@
         {
           "base": "name",
           "editable": true,
-          "id": "fff63dc0-4b91-4ce2-b5f1-697b3beb6a91",
+          "id": "63f87ed8-0f48-4f4b-a04e-42d5b8e092c9",
           "input": false,
           "inputPort": false,
           "name": "name",
           "output": false,
           "outputPort": false,
-          "value": "max_pooling1d_4",
+          "value": "max_pooling2d_55",
           "visible": true,
           "iterator": false
         },
         {
           "base": "trainable",
           "editable": true,
-          "id": "79bb384b-28f6-4f06-83a9-90346c9a7c28",
+          "id": "28b444fb-0a81-4c42-80ff-c3c489fcace5",
           "input": false,
           "inputPort": false,
           "name": "trainable",
@@ -294,30 +659,16 @@
           "iterator": false
         },
         {
-          "base": "strides",
-          "editable": true,
-          "id": "d7b84436-c27a-4490-91e8-2399b59e3b0f",
-          "input": false,
-          "inputPort": false,
-          "name": "strides",
-          "output": false,
-          "outputPort": false,
-          "value": [
-            2
-          ],
-          "visible": true,
-          "iterator": false
-        },
-        {
           "base": "pool_size",
           "editable": true,
-          "id": "131d35cc-4354-4c0f-92c8-c4835aeb1920",
+          "id": "d8241c37-d37c-4d2f-b510-812552ccb8e6",
           "input": false,
           "inputPort": false,
           "name": "pool_size",
           "output": false,
           "outputPort": false,
           "value": [
+            2,
             2
           ],
           "visible": true,
@@ -326,7 +677,7 @@
         {
           "base": "padding",
           "editable": true,
-          "id": "3ef139fe-8de6-4948-b828-9720d14e1b56",
+          "id": "61a539b6-d884-4673-953b-9ae23283cca8",
           "input": false,
           "inputPort": false,
           "name": "padding",
@@ -337,9 +688,25 @@
           "iterator": false
         },
         {
+          "base": "strides",
+          "editable": true,
+          "id": "e780934d-ab4a-4925-8f71-b4170a2b58af",
+          "input": false,
+          "inputPort": false,
+          "name": "strides",
+          "output": false,
+          "outputPort": false,
+          "value": [
+            2,
+            2
+          ],
+          "visible": true,
+          "iterator": false
+        },
+        {
           "base": "data_format",
           "editable": true,
-          "id": "65df2552-1a68-4230-8fac-2e8c742c08d0",
+          "id": "5e89e331-43ef-497d-bdab-1bb18ab34ae5",
           "input": false,
           "inputPort": false,
           "name": "data_format",
@@ -352,23 +719,236 @@
         {
           "base": "OUTPUT",
           "editable": true,
-          "id": "766ce801-6095-4f02-b1a9-f7bb75be3f7f",
+          "id": "fa1721e7-bb72-4802-b8ae-62c902c671ed",
           "input": false,
           "inputPort": false,
           "name": "OUTPUT",
           "output": true,
-          "outputPort": "c1bbdea7-abf1-4a44-b485-23ff4fdfa3a9",
+          "outputPort": "908669d9-2113-4573-b55f-912ca3ee1b61",
           "value": "",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        298.3737716737422,
-        466.98515654502546
+        833.5378016523796,
+        628.2100036511156
       ],
-      "code": [],
-      "web_url": "https://keras.io/layers/merge/Add"
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "MaxPooling2D",
+            "import": "from keras.layers import MaxPooling2D"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/convolutional/MaxPooling2D",
+      "colour": "#BBB"
+    },
+    {
+      "name": "Dropout",
+      "class": "Dropout",
+      "category": [
+        "core"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "604ac9ed-c676-4f9b-ad79-13226b31daf3",
+          "input": true,
+          "inputPort": "af8ce0c8-dab5-454e-a0fc-686805c102a7",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "c23343a5-5601-4ced-82ff-7607b90f95f9",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "dropout_22",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "13ff92d4-4456-49f5-869d-b2d969a2703f",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "rate",
+          "editable": true,
+          "id": "cf2fdd02-5838-42ea-8089-010e237dd130",
+          "input": false,
+          "inputPort": false,
+          "name": "rate",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "noise_shape",
+          "editable": true,
+          "id": "595cbb89-7f5f-4fc8-8639-4729e27c478c",
+          "input": false,
+          "inputPort": false,
+          "name": "noise_shape",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "seed",
+          "editable": true,
+          "id": "6e483c62-f3f5-4277-a1da-e4b38b535bc1",
+          "input": false,
+          "inputPort": false,
+          "name": "seed",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "4ac32b9f-8a8a-4f12-b201-ba167ff67c2e",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "ec3ad422-9c44-457f-9281-d583a3a29a07",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1055.0831550187306,
+        713.926960078658
+      ],
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Dropout",
+            "import": "from keras.layers import Dropout"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/core/Dropout",
+      "colour": "#BBB"
+    },
+    {
+      "name": "Flatten",
+      "class": "Flatten",
+      "category": [
+        "core"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "116e404a-ec2a-4542-bc44-2581220233e0",
+          "input": true,
+          "inputPort": "17a304e6-eaef-43ef-b2ad-fbaa61677ac9",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "57c46ca9-5212-4809-9992-428bfa6b5b0c",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "flatten_21",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "b07c03b4-290f-4a20-8a7a-ded8fb5f3973",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "data_format",
+          "editable": true,
+          "id": "3ec0658a-648f-4c69-9717-7b2074a3d3b9",
+          "input": false,
+          "inputPort": false,
+          "name": "data_format",
+          "output": false,
+          "outputPort": false,
+          "value": "channels_last",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "ed42e05f-dd7e-41df-8eea-dec246d24621",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "736e83b3-277f-478c-9cdf-a69eac77c6df",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1273.991022541007,
+        847.1178420608288
+      ],
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Flatten",
+            "import": "from keras.layers import Flatten"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/core/Flatten",
+      "colour": "#BBB"
     },
     {
       "name": "Dense",
@@ -380,9 +960,9 @@
         {
           "base": "INPUT",
           "editable": true,
-          "id": "ee36fe79-cd09-49ca-b6b7-6d93ad77ab51",
+          "id": "2c88d67a-8c20-47b7-a7c5-495d8f13d7bd",
           "input": true,
-          "inputPort": "112ad304-c01a-47ed-9b28-7b4d9c54185f",
+          "inputPort": "68af4713-fb37-42a0-a792-dfe8d7f525c1",
           "name": "INPUT",
           "output": false,
           "outputPort": false,
@@ -393,20 +973,20 @@
         {
           "base": "name",
           "editable": true,
-          "id": "2e298184-fd14-4b2e-be3b-f5a78e938312",
+          "id": "6b74fa3c-5d97-415e-ba38-17b5c4354039",
           "input": false,
           "inputPort": false,
           "name": "name",
           "output": false,
           "outputPort": false,
-          "value": "max_pooling1d_37",
+          "value": "dense_8",
           "visible": true,
           "iterator": false
         },
         {
           "base": "trainable",
           "editable": true,
-          "id": "07245bdb-d48d-4a91-8db9-55e8103e325c",
+          "id": "7c252945-03be-41ee-b4ba-8ea9d3e60fde",
           "input": false,
           "inputPort": false,
           "name": "trainable",
@@ -417,85 +997,179 @@
           "iterator": false
         },
         {
-          "base": "strides",
+          "base": "units",
           "editable": true,
-          "id": "b208792a-5f92-4e04-86ad-2b536609cf40",
+          "id": "bca2467b-5642-4fb9-9e4f-6f18b0199673",
           "input": false,
           "inputPort": false,
-          "name": "strides",
+          "name": "units",
           "output": false,
           "outputPort": false,
-          "value": [
-            2
-          ],
+          "value": "",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "pool_size",
+          "base": "activation",
           "editable": true,
-          "id": "32c3ff31-1559-40e6-a3a6-ce238cfc0b41",
+          "id": "32823ec2-97c2-42d0-9e73-daf0047e3878",
           "input": false,
           "inputPort": false,
-          "name": "pool_size",
+          "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": [
-            2
-          ],
+          "value": "linear",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "padding",
+          "base": "use_bias",
           "editable": true,
-          "id": "37c5e595-fbef-4adf-a496-e18b55b16a4e",
+          "id": "c1eab823-0456-4614-8d07-939085e6481c",
           "input": false,
           "inputPort": false,
-          "name": "padding",
+          "name": "use_bias",
           "output": false,
           "outputPort": false,
-          "value": "valid",
+          "value": true,
           "visible": true,
           "iterator": false
         },
         {
-          "base": "data_format",
+          "base": "kernel_initializer",
           "editable": true,
-          "id": "e7aab170-7b8f-4c51-ab83-07f0f182f884",
+          "id": "05a790df-6797-4bd2-962a-cd17b3b00f7f",
           "input": false,
           "inputPort": false,
-          "name": "data_format",
+          "name": "kernel_initializer",
           "output": false,
           "outputPort": false,
-          "value": "channels_last",
+          "value": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_initializer",
+          "editable": true,
+          "id": "39da4b6e-c1e0-4bb4-9c04-9eceb92b8935",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_regularizer",
+          "editable": true,
+          "id": "bd7b7f64-e7d3-4759-9479-5776733ca1dd",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_regularizer",
+          "editable": true,
+          "id": "bcb237d0-530e-4e14-b789-ca38bdfd1b86",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activity_regularizer",
+          "editable": true,
+          "id": "9542e644-3500-4ede-876f-3dd2891ee872",
+          "input": false,
+          "inputPort": false,
+          "name": "activity_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_constraint",
+          "editable": true,
+          "id": "94b1e24e-5518-44ab-a957-44e7ec2814b7",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_constraint",
+          "editable": true,
+          "id": "5f616ab5-cd11-48ff-a963-71df2db666d9",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
           "visible": true,
           "iterator": false
         },
         {
           "base": "OUTPUT",
           "editable": true,
-          "id": "dc86e0e6-bc1b-4b27-8261-a28023e45def",
+          "id": "bbefa004-bca0-44d5-85c6-217715a52b27",
           "input": false,
           "inputPort": false,
           "name": "OUTPUT",
           "output": true,
-          "outputPort": "559d5989-0134-4f51-ab83-1ea2e80289af",
+          "outputPort": "c5037d65-825d-4873-993c-f21540e9540c",
           "value": "",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        1232.7647039458477,
-        270.1137923743112
+        1503.4486350904301,
+        862.9426212465085
       ],
-      "code": [],
-      "web_url": "https://keras.io/layers/core/Dense"
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Dense",
+            "import": "from keras.layers import Dense"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/core/Dense",
+      "colour": "#BBB"
     },
     {
-      "name": "Lambda",
-      "class": "Lambda",
+      "name": "Dropout_1",
+      "class": "Dropout",
       "category": [
         "core"
       ],
@@ -503,9 +1177,9 @@
         {
           "base": "INPUT",
           "editable": true,
-          "id": "cefd6a26-0fd6-476d-abe3-a63d8cab5516",
+          "id": "d430c702-51bc-4014-8615-9bca5ec78d57",
           "input": true,
-          "inputPort": "6972c430-cc72-49d7-b78d-9b91ddd520ca",
+          "inputPort": "427e6697-d3ea-4ee7-b234-1960e9f5d816",
           "name": "INPUT",
           "output": false,
           "outputPort": false,
@@ -516,20 +1190,20 @@
         {
           "base": "name",
           "editable": true,
-          "id": "8a4013ec-3b88-448a-a340-8e3941fabcc5",
+          "id": "ce86a289-4f1a-4adf-a72e-e6e0a5321894",
           "input": false,
           "inputPort": false,
           "name": "name",
           "output": false,
           "outputPort": false,
-          "value": "max_pooling1d_62",
+          "value": "dropout_22",
           "visible": true,
           "iterator": false
         },
         {
           "base": "trainable",
           "editable": true,
-          "id": "f1b10c9e-b0ec-40a9-9f15-63acd839d84d",
+          "id": "e3f6a99a-6957-4443-8232-1a4958303cd4",
           "input": false,
           "inputPort": false,
           "name": "trainable",
@@ -540,81 +1214,290 @@
           "iterator": false
         },
         {
-          "base": "strides",
+          "base": "rate",
           "editable": true,
-          "id": "b75ef4e1-9eef-4eab-b2ff-ef8a5eeb520b",
+          "id": "f5e8c233-a84b-4449-8a06-b5c62309d67e",
           "input": false,
           "inputPort": false,
-          "name": "strides",
+          "name": "rate",
           "output": false,
           "outputPort": false,
-          "value": [
-            2
-          ],
+          "value": "",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "pool_size",
+          "base": "noise_shape",
           "editable": true,
-          "id": "68d0582d-7e6b-4621-94d5-87a6a39d12ab",
+          "id": "c996e542-a565-40a5-b5f9-591ebdbdb1cb",
           "input": false,
           "inputPort": false,
-          "name": "pool_size",
+          "name": "noise_shape",
           "output": false,
           "outputPort": false,
-          "value": [
-            2
-          ],
+          "value": "",
           "visible": true,
           "iterator": false
         },
         {
-          "base": "padding",
+          "base": "seed",
           "editable": true,
-          "id": "ae4e9313-a8d5-4534-9977-2c966b7ff8c1",
+          "id": "d2d15837-d4e2-4476-af00-f65c0d602a75",
           "input": false,
           "inputPort": false,
-          "name": "padding",
+          "name": "seed",
           "output": false,
           "outputPort": false,
-          "value": "valid",
-          "visible": true,
-          "iterator": false
-        },
-        {
-          "base": "data_format",
-          "editable": true,
-          "id": "b6305b3c-e3c6-4163-b632-a72025a3ad6f",
-          "input": false,
-          "inputPort": false,
-          "name": "data_format",
-          "output": false,
-          "outputPort": false,
-          "value": "channels_last",
+          "value": "",
           "visible": true,
           "iterator": false
         },
         {
           "base": "OUTPUT",
           "editable": true,
-          "id": "4bb23721-ec0f-4f34-91a2-ba4dd323a4cd",
+          "id": "5447129e-f915-4097-9b31-2da5a3ce72a3",
           "input": false,
           "inputPort": false,
           "name": "OUTPUT",
           "output": true,
-          "outputPort": "a1727e00-a113-4179-bc02-0ff40fba379c",
+          "outputPort": "21650dae-a84c-4648-995f-1aa1c32e868b",
           "value": "",
           "visible": true,
           "iterator": false
         }
       ],
       "position": [
-        350.6067768581707,
-        116.89691394452456
+        1807.681157038891,
+        1082.2965801997464
       ],
-      "code": [],
-      "web_url": "https://keras.io/layers/core/Lambda"
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Dropout",
+            "import": "from keras.layers import Dropout"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/core/Dropout",
+      "colour": "#BBB"
+    },
+    {
+      "name": "Dense_1",
+      "class": "Dense",
+      "category": [
+        "core"
+      ],
+      "ports": [
+        {
+          "base": "INPUT",
+          "editable": true,
+          "id": "cdd63c98-a3ad-4c5f-a90a-3cf6e43a628e",
+          "input": true,
+          "inputPort": "b1494cba-71b8-435f-955b-4d9aeecf08ba",
+          "name": "INPUT",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "name",
+          "editable": true,
+          "id": "b4867847-8d8f-4317-8dc2-f94f1588b60b",
+          "input": false,
+          "inputPort": false,
+          "name": "name",
+          "output": false,
+          "outputPort": false,
+          "value": "dense_8",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "trainable",
+          "editable": true,
+          "id": "66e0b558-6974-4d98-8030-0de16d11da91",
+          "input": false,
+          "inputPort": false,
+          "name": "trainable",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "units",
+          "editable": true,
+          "id": "a7d6ff65-92c1-4aa7-a30a-e04798f17edf",
+          "input": false,
+          "inputPort": false,
+          "name": "units",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activation",
+          "editable": true,
+          "id": "1c16c33a-5cdd-439d-a5f0-437532a8ce48",
+          "input": false,
+          "inputPort": false,
+          "name": "activation",
+          "output": false,
+          "outputPort": false,
+          "value": "linear",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "use_bias",
+          "editable": true,
+          "id": "36901c68-41dd-48f8-b2fc-4bc3c1571126",
+          "input": false,
+          "inputPort": false,
+          "name": "use_bias",
+          "output": false,
+          "outputPort": false,
+          "value": true,
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_initializer",
+          "editable": true,
+          "id": "5a1371a7-e8da-4065-856f-a569657ad0e0",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "VarianceScaling",
+            "config": {
+              "scale": 1,
+              "mode": "fan_avg",
+              "distribution": "uniform",
+              "seed": null
+            }
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_initializer",
+          "editable": true,
+          "id": "d4c9b5c7-cdb2-46f7-807d-eb69fc61bc33",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_initializer",
+          "output": false,
+          "outputPort": false,
+          "value": {
+            "class_name": "Zeros",
+            "config": {}
+          },
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_regularizer",
+          "editable": true,
+          "id": "1f404d9e-0d71-4860-9c37-16245342ca88",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_regularizer",
+          "editable": true,
+          "id": "2f9873b8-ef23-4d0e-9c47-6d9de8483507",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "activity_regularizer",
+          "editable": true,
+          "id": "2b59df28-0eb8-4195-81fb-facea694fbb9",
+          "input": false,
+          "inputPort": false,
+          "name": "activity_regularizer",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "kernel_constraint",
+          "editable": true,
+          "id": "14a64669-93dd-471a-9d2e-8b305494861f",
+          "input": false,
+          "inputPort": false,
+          "name": "kernel_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "bias_constraint",
+          "editable": true,
+          "id": "3a56074e-1ca5-4b6d-bfad-289daf7e95de",
+          "input": false,
+          "inputPort": false,
+          "name": "bias_constraint",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "OUTPUT",
+          "editable": true,
+          "id": "59792565-53ba-4aca-95d5-2cbd467fdfc8",
+          "input": false,
+          "inputPort": false,
+          "name": "OUTPUT",
+          "output": true,
+          "outputPort": "97dc2444-7ebb-4ae7-bec1-fc7af4e78c38",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        2003.4635276685551,
+        1146.6870060121335
+      ],
+      "code": [
+        {
+          "language": "Keras",
+          "argument": {
+            "name": "Dense",
+            "import": "from keras.layers import Dense"
+          }
+        }
+      ],
+      "web_url": "https://keras.io/layers/core/Dense",
+      "colour": "#BBB"
     }
   ],
   "version": "v1"
